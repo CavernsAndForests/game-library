@@ -10,8 +10,8 @@
         }
 
         :root {
-            --primary-color: #026f3b;
-            --primary-light: #b4c229;
+            --primary-color: #555555;
+            --primary-light: #888888;
             --secondary-color: #555555;
             --background: #dddddd;
             --card-bg: #ffffff;
@@ -167,7 +167,7 @@
 
         .games-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
             gap: 20px;
         }
 
@@ -177,15 +177,13 @@
             overflow: hidden;
             box-shadow: var(--shadow);
             transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
-            aspect-ratio: 3 / 4;
+            aspect-ratio: 1 / 1;
             background: #1a1a1a;
-            border: 3px solid transparent;
         }
 
         .game-card:hover {
             transform: translateY(-4px);
             box-shadow: 0 8px 30px rgba(0,0,0,0.3);
-            border-color: #ffffff;
         }
 
         .game-image {
@@ -248,7 +246,7 @@
         }
 
         .rating-badge.high {
-            background: rgba(46, 125, 50, 0.9);
+            background: rgba(80, 80, 80, 0.9);
         }
 
         .rating-badge.medium {
@@ -260,7 +258,7 @@
         }
 
         .complexity-badge {
-            background: rgba(92, 107, 192, 0.9);
+            background: rgba(100, 100, 100, 0.9);
             color: white;
             padding: 2px 8px;
             border-radius: 4px;
@@ -276,7 +274,7 @@
         }
 
         .category-tag {
-            background: rgba(2, 111, 59, 0.7);
+            background: rgba(80, 80, 80, 0.7);
             color: rgba(255,255,255,0.95);
             padding: 2px 8px;
             border-radius: 4px;
@@ -359,7 +357,7 @@
 
         .modal-image {
             width: 100%;
-            height: 300px;
+            aspect-ratio: 3 / 4;
             object-fit: cover;
             border-radius: 16px 16px 0 0;
         }
@@ -560,6 +558,10 @@
                         <option value="playtime-desc">Longest First</option>
                     </select>
                 </div>
+                <div class="control-group" style="flex: 0; min-width: auto;">
+                    <label>&nbsp;</label>
+                    <button onclick="resetFilters()" style="padding: 10px 20px; border: none; border-radius: 8px; background: #333; color: #fff; font-family: inherit; font-size: 1em; cursor: pointer;">Reset</button>
+                </div>
             </div>
             <div class="filter-tags" id="categoryFilters"></div>
         </div>
@@ -609,6 +611,16 @@
             loadLibrary();
             setupEventListeners();
         });
+
+        function resetFilters() {
+            document.getElementById('search').value = '';
+            document.getElementById('players').value = '';
+            document.getElementById('playtime').value = '';
+            document.getElementById('sort').value = 'name';
+            selectedCategories.clear();
+            renderCategoryFilters();
+            applyFilters();
+        }
 
         function setupEventListeners() {
             document.getElementById('search').addEventListener('input', debounce(applyFilters, 300));
@@ -868,18 +880,6 @@
                              onerror="this.style.opacity='0'">
                         <div class="game-info">
                             <h3 class="game-title">${escapeHtml(game.name)}</h3>
-                            <div class="game-meta">
-                                <span>Players: ${playerText}</span>
-                                <span>Play Time: ${game.playingTime || '?'} min</span>
-                                <span>Released: ${game.yearPublished}</span>
-                            </div>
-                            ${game.categories && game.categories.length > 0 ? `
-                                <div class="game-categories">
-                                    ${game.categories.slice(0, 3).map(cat =>
-                                        `<span class="category-tag">${escapeHtml(cat)}</span>`
-                                    ).join('')}
-                                </div>
-                            ` : ''}
                         </div>
                     </div>
                 `;
