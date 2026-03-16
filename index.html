@@ -45,15 +45,21 @@
         }
 
         header h1 {
-            color: var(--primary-light);
-            margin: 0 0 10px 0;
-            font-size: 2.2em;
-            font-weight: 700;
+            font-family: Georgia, 'Times New Roman', serif;
+            color: #333333;
+            margin: 0 0 8px 0;
+            font-size: 2.4em;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0.25em;
         }
 
         header p {
-            color: var(--text-secondary);
+            font-family: Georgia, 'Times New Roman', serif;
+            color: #666666;
             margin: 0;
+            font-size: 1em;
+            font-weight: 400;
         }
 
         /* Collapsible controls */
@@ -288,11 +294,9 @@
         /* Game detail modal - compact horizontal layout */
         .modal-overlay {
             display: none;
-            position: fixed;
-            top: 0;
+            position: absolute;
             left: 0;
             width: 100%;
-            height: 100%;
             background: rgba(0,0,0,0.8);
             justify-content: center;
             align-items: center;
@@ -1122,10 +1126,11 @@
                 honorsEl.classList.add('hidden');
             }
 
-            // Show modal — scroll parent to top so fixed overlay is visible in iframe
-            window.scrollTo(0, 0);
-            window.parent.postMessage({ type: 'scroll-to-iframe' }, '*');
-            document.getElementById('gameModal').classList.add('active');
+            // Show modal — position overlay at current viewport within iframe
+            const modal = document.getElementById('gameModal');
+            modal.style.top = iframeViewportTop + 'px';
+            modal.style.height = iframeViewportHeight + 'px';
+            modal.classList.add('active');
             document.body.style.overflow = 'hidden';
         }
 
@@ -1150,6 +1155,16 @@
         // Close modal on Escape key
         document.addEventListener('keydown', (e) => {
             if (e.key === 'Escape') closeModal();
+        });
+
+        // Track viewport position from parent for modal positioning
+        let iframeViewportTop = 0;
+        let iframeViewportHeight = window.innerHeight;
+        window.addEventListener('message', function(e) {
+            if (e.data && e.data.type === 'viewport-info') {
+                iframeViewportTop = e.data.top;
+                iframeViewportHeight = e.data.height;
+            }
         });
 
         // Auto-resize iframe: post content height to parent window
