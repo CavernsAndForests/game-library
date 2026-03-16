@@ -933,7 +933,7 @@
                 return `
                     <div class="game-card" onclick="showGameDetail('${game.id}')" style="cursor: pointer;">
                         <img class="game-image"
-                             src="${game.image || game.thumbnail || ''}"
+                             src="${game.thumbnail || game.image || ''}"
                              alt="${escapeHtml(game.name)}"
                              loading="lazy"
                              onerror="this.style.opacity='0'">
