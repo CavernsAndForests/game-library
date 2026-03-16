@@ -294,9 +294,11 @@
         /* Game detail modal - compact horizontal layout */
         .modal-overlay {
             display: none;
-            position: absolute;
+            position: fixed;
+            top: 0;
             left: 0;
             width: 100%;
+            height: 100%;
             background: rgba(0,0,0,0.8);
             justify-content: center;
             align-items: center;
@@ -1126,10 +1128,9 @@
                 honorsEl.classList.add('hidden');
             }
 
-            // Show modal — position overlay at current viewport within iframe
+            // Show modal — lock iframe to viewport size so position:fixed works
+            window.parent.postMessage({ type: 'modal-open' }, '*');
             const modal = document.getElementById('gameModal');
-            modal.style.top = iframeViewportTop + 'px';
-            modal.style.height = iframeViewportHeight + 'px';
             modal.classList.add('active');
             document.body.style.overflow = 'hidden';
         }
@@ -1150,21 +1151,13 @@
             if (event && event.target !== event.currentTarget) return;
             document.getElementById('gameModal').classList.remove('active');
             document.body.style.overflow = '';
+            window.parent.postMessage({ type: 'modal-close' }, '*');
+            postHeight();
         }
 
         // Close modal on Escape key
         document.addEventListener('keydown', (e) => {
             if (e.key === 'Escape') closeModal();
-        });
-
-        // Track viewport position from parent for modal positioning
-        let iframeViewportTop = 0;
-        let iframeViewportHeight = window.innerHeight;
-        window.addEventListener('message', function(e) {
-            if (e.data && e.data.type === 'viewport-info') {
-                iframeViewportTop = e.data.top;
-                iframeViewportHeight = e.data.height;
-            }
         });
 
         // Auto-resize iframe: post content height to parent window
