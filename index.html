@@ -216,8 +216,8 @@
 
         .games-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-            gap: 20px;
+            grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+            gap: 16px;
         }
 
         .game-card {
@@ -287,25 +287,21 @@
 
         /* Game detail modal - compact horizontal layout */
         .modal-overlay {
+            display: none;
             position: fixed;
             top: 0;
             left: 0;
-            right: 0;
-            bottom: 0;
+            width: 100%;
+            height: 100%;
             background: rgba(0,0,0,0.8);
-            display: flex;
             justify-content: center;
             align-items: center;
             z-index: 1000;
             padding: 20px;
-            opacity: 0;
-            visibility: hidden;
-            transition: opacity 0.3s, visibility 0.3s;
         }
 
         .modal-overlay.active {
-            opacity: 1;
-            visibility: visible;
+            display: flex;
         }
 
         .modal-content {
@@ -933,7 +929,7 @@
                 return `
                     <div class="game-card" onclick="showGameDetail('${game.id}')" style="cursor: pointer;">
                         <img class="game-image"
-                             src="${game.thumbnail || game.image || ''}"
+                             src="${getMediumImage(game.image) || game.thumbnail || ''}"
                              alt="${escapeHtml(game.name)}"
                              loading="lazy"
                              onerror="this.style.opacity='0'">
@@ -976,6 +972,11 @@
             const div = document.createElement('div');
             div.textContent = decoded;
             return div.innerHTML;
+        }
+
+        function getMediumImage(url) {
+            if (!url) return '';
+            return url.replace(/__original\//, '__square200/').replace(/__small\//, '__square200/');
         }
 
         function showGameDetail(gameId) {
@@ -1121,7 +1122,9 @@
                 honorsEl.classList.add('hidden');
             }
 
-            // Show modal
+            // Show modal — scroll parent to top so fixed overlay is visible in iframe
+            window.scrollTo(0, 0);
+            window.parent.postMessage({ type: 'scroll-to-iframe' }, '*');
             document.getElementById('gameModal').classList.add('active');
             document.body.style.overflow = 'hidden';
         }
