@@ -1151,6 +1151,8 @@
 
         // Auto-resize iframe: post content height to parent window
         function postHeight() {
+            // Don't resize while modal is open (overflow:hidden skews scrollHeight)
+            if (document.getElementById('gameModal').classList.contains('active')) return;
             const height = document.documentElement.scrollHeight;
             window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
         }
