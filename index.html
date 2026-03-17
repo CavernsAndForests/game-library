@@ -1124,7 +1124,9 @@
         function postHeight() {
             if (heightRAF) cancelAnimationFrame(heightRAF);
             heightRAF = requestAnimationFrame(() => {
-                const height = document.documentElement.scrollHeight;
+                // Measure actual content height, not iframe/document height
+                const container = document.querySelector('.container');
+                const height = container ? container.offsetHeight + 40 : document.body.scrollHeight;
                 window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
             });
         }
