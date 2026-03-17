@@ -1120,9 +1120,11 @@
                 honorsEl.classList.add('hidden');
             }
 
-            // Show modal inline — hide grid, show detail
+            // Show modal inline — hide grid, filters, show detail
             document.getElementById('gamesGrid').style.display = 'none';
             document.querySelector('.stats-bar').style.display = 'none';
+            document.getElementById('controlsToggle').style.display = 'none';
+            document.getElementById('controlsPanel').style.display = 'none';
             document.getElementById('gameModal').classList.add('active');
             window.scrollTo(0, 0);
             window.parent.postMessage({ type: 'scroll-to-iframe' }, '*');
@@ -1145,6 +1147,8 @@
             document.getElementById('gameModal').classList.remove('active');
             document.getElementById('gamesGrid').style.display = '';
             document.querySelector('.stats-bar').style.display = '';
+            document.getElementById('controlsToggle').style.display = '';
+            document.getElementById('controlsPanel').style.display = '';
             requestAnimationFrame(postHeight);
         }
 
