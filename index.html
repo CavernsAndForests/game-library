@@ -402,10 +402,6 @@
             overflow: hidden;
         }
 
-        .modal-description:not(.collapsed) {
-            max-height: 300px;
-            overflow-y: auto;
-        }
 
         .modal-toggle-desc {
             width: 100%;
@@ -717,9 +713,9 @@
                 <h2 class="modal-title" id="modalTitle"></h2>
                 <div id="modalExpansionInfo"></div>
                 <div class="modal-meta" id="modalMeta"></div>
+                <div id="modalDetails"></div>
                 <p class="modal-description" id="modalDescription"></p>
                 <button class="modal-toggle-desc hidden" id="modalToggleDesc" onclick="toggleDescription()">Show more</button>
-                <div id="modalDetails"></div>
                 <div class="modal-categories" id="modalCategories"></div>
                 <div class="modal-honors hidden" id="modalHonors" style="margin-top: 10px;"></div>
             </div>
@@ -936,7 +932,7 @@
                 return `
                     <div class="game-card" onclick="showGameDetail('${game.id}')" style="cursor: pointer;">
                         <img class="game-image"
-                             src="${game.thumbnail || game.image || ''}"
+                             src="${game.image || game.thumbnail || ''}"
                              alt="${escapeHtml(game.name)}"
                              loading="lazy"
                              onerror="this.style.opacity='0'">
