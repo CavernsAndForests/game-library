@@ -932,7 +932,7 @@
                 return `
                     <div class="game-card" onclick="showGameDetail('${game.id}')" style="cursor: pointer;">
                         <img class="game-image"
-                             src="${game.image || game.thumbnail || ''}"
+                             src="${getTileImage(game.image || game.thumbnail)}"
                              alt="${escapeHtml(game.name)}"
                              loading="lazy"
                              onerror="this.style.opacity='0'">
@@ -975,6 +975,13 @@
             const div = document.createElement('div');
             div.textContent = decoded;
             return div.innerHTML;
+        }
+
+        function getTileImage(url) {
+            if (!url) return '';
+            // Strip protocol for weserv proxy
+            const stripped = url.replace(/^https?:\/\//, '');
+            return 'https://images.weserv.nl/?url=' + encodeURIComponent(stripped) + '&w=400&h=400&fit=cover';
         }
 
         function showGameDetail(gameId) {
