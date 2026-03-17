@@ -1120,6 +1120,7 @@
             document.getElementById('gameModal').classList.add('active');
             window.scrollTo(0, 0);
             window.parent.postMessage({ type: 'scroll-to-iframe' }, '*');
+            requestAnimationFrame(postHeight);
         }
 
         function toggleDescription() {
@@ -1138,6 +1139,7 @@
             document.getElementById('gameModal').classList.remove('active');
             document.getElementById('gamesGrid').style.display = '';
             document.querySelector('.stats-bar').style.display = '';
+            requestAnimationFrame(postHeight);
         }
 
         // Close modal on Escape key
