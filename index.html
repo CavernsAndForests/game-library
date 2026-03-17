@@ -1148,10 +1148,13 @@
         });
 
         // Auto-resize iframe: post content height to parent window
+        let heightRAF = null;
         function postHeight() {
-            // Always post current height (content changes with modal/grid swap)
-            const height = document.documentElement.scrollHeight;
-            window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+            if (heightRAF) cancelAnimationFrame(heightRAF);
+            heightRAF = requestAnimationFrame(() => {
+                const height = document.documentElement.scrollHeight;
+                window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+            });
         }
         // Post height after load, after renders, and on resize
         window.addEventListener('load', postHeight);
