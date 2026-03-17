@@ -715,7 +715,6 @@
                 <div class="modal-meta" id="modalMeta"></div>
                 <div id="modalDetails"></div>
                 <p class="modal-description" id="modalDescription"></p>
-                <button class="modal-toggle-desc hidden" id="modalToggleDesc" onclick="toggleDescription()">Show more</button>
                 <div class="modal-categories" id="modalCategories"></div>
                 <div class="modal-honors hidden" id="modalHonors" style="margin-top: 10px;"></div>
             </div>
@@ -1050,21 +1049,11 @@
 
             // Description
             const descEl = document.getElementById('modalDescription');
-            const toggleBtn = document.getElementById('modalToggleDesc');
             if (game.description) {
                 descEl.textContent = game.description;
                 descEl.style.display = '';
-                if (game.description.length > 300) {
-                    descEl.classList.add('collapsed');
-                    toggleBtn.innerHTML = '<span class="toggle-icon">&#9660;</span>';
-                    toggleBtn.classList.remove('hidden', 'expanded');
-                } else {
-                    descEl.classList.remove('collapsed');
-                    toggleBtn.classList.add('hidden');
-                }
             } else {
                 descEl.style.display = 'none';
-                toggleBtn.classList.add('hidden');
             }
 
             // Detail sections: Description, Mechanics, Language, Designer, Artist, Publisher
