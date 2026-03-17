@@ -260,78 +260,63 @@
             display: none !important;
         }
 
-        /* Game detail modal - inline layout */
+        /* Game detail - inline layout */
         .modal-overlay {
             display: none;
-            max-width: 720px;
+            max-width: 800px;
             margin: 0 auto;
-            padding: 20px 0;
+            padding: 10px 0;
         }
 
         .modal-overlay.active {
             display: block;
         }
 
+        .modal-back {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-family: inherit;
+            font-size: 0.95em;
+            font-weight: 500;
+            color: var(--text-secondary);
+            padding: 8px 0;
+            margin-bottom: 16px;
+        }
+
+        .modal-back:hover {
+            color: var(--text-primary);
+        }
+
         .modal-content {
-            background: var(--card-bg);
-            border-radius: 12px;
-            width: 100%;
-            position: relative;
-            border: 1px solid var(--border-color);
             display: flex;
             flex-direction: row;
-            overflow: hidden;
-        }
-
-        .modal-close {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            background: rgba(0,0,0,0.5);
-            color: white;
-            border: none;
-            width: 32px;
-            height: 32px;
-            border-radius: 50%;
-            cursor: pointer;
-            font-size: 18px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            z-index: 10;
-        }
-
-        .modal-close:hover {
-            background: rgba(0,0,0,0.7);
+            gap: 30px;
         }
 
         .modal-image-wrap {
-            flex: 0 0 240px;
-            background: #1a1a1a;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 12px 0 0 12px;
-            overflow: hidden;
+            flex: 0 0 280px;
         }
 
         .modal-image {
             width: 100%;
-            height: 100%;
+            border-radius: 12px;
             object-fit: contain;
         }
 
         .modal-body {
             flex: 1;
-            padding: 20px;
-            overflow-y: auto;
             min-width: 0;
         }
 
         .modal-title {
-            font-size: 1.3em;
+            font-family: 'SemplicitaPro', sans-serif;
+            font-size: 1.6em;
             font-weight: 700;
-            margin: 0 30px 10px 0;
+            margin: 0 0 14px 0;
             color: var(--text-primary);
             line-height: 1.3;
         }
@@ -583,13 +568,15 @@
 
             .modal-content {
                 flex-direction: column;
-                max-width: 100%;
+                gap: 20px;
             }
 
             .modal-image-wrap {
                 flex: none;
-                height: 240px;
-                border-radius: 12px 12px 0 0;
+            }
+
+            .modal-title {
+                font-size: 1.3em;
             }
         }
     </style>
@@ -674,8 +661,8 @@
 
 
         <div class="modal-overlay" id="gameModal">
+            <button class="modal-back" onclick="closeModal()">&#8592; Back to library</button>
             <div class="modal-content">
-            <button class="modal-close" onclick="closeModal()">&times;</button>
             <div class="modal-image-wrap">
                 <img class="modal-image" id="modalImage" src="" alt="">
             </div>
