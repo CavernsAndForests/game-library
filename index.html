@@ -61,74 +61,31 @@
             color: #4d4d4d;
             margin: 0 0 8px 0;
             font-size: 2.4em;
-            font-weight: 300;
+            font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 0.28em;
         }
 
         header p {
-            font-family: 'Work Sans', sans-serif;
+            font-family: 'SemplicitaPro', sans-serif;
             color: #4d4d4d;
             margin: 0;
-            font-size: 0.95em;
-            font-weight: 400;
+            font-size: 1em;
+            font-weight: 300;
         }
 
-        /* Collapsible controls */
+        /* Controls */
         .controls-toggle {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            background: var(--card-bg);
-            padding: 12px 20px;
-            border-radius: 8px;
-            box-shadow: var(--shadow);
-            margin-bottom: 0;
-            border: 1px solid var(--border-color);
-            cursor: pointer;
-            transition: border-radius 0.2s;
-        }
-
-        .controls-toggle.open {
-            border-radius: 8px 8px 0 0;
-            margin-bottom: 0;
-            border-bottom: none;
-        }
-
-        .controls-toggle:not(.open) {
-            margin-bottom: 25px;
-        }
-
-        .controls-toggle-label {
-            font-size: 0.95em;
-            font-weight: 600;
-            color: var(--text-secondary);
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-
-        .controls-toggle-arrow {
-            font-size: 0.8em;
-            color: var(--text-secondary);
-            transition: transform 0.2s;
-        }
-
-        .controls-toggle.open .controls-toggle-arrow {
-            transform: rotate(180deg);
+            display: none;
         }
 
         .controls {
             background: var(--card-bg);
-            padding: 0 20px 20px 20px;
-            border-radius: 0 0 8px 8px;
+            padding: 20px;
+            border-radius: 8px;
             box-shadow: var(--shadow);
             margin-bottom: 25px;
             border: 1px solid var(--border-color);
-            border-top: none;
-            display: none;
-        }
-
-        .controls.open {
             display: block;
         }
 
