@@ -75,18 +75,60 @@
             line-height: 1.6;
         }
 
-        /* Controls */
+        /* Collapsible controls */
         .controls-toggle {
-            display: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: var(--card-bg);
+            padding: 12px 20px;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+            margin-bottom: 0;
+            border: 1px solid var(--border-color);
+            cursor: pointer;
+            transition: border-radius 0.2s;
+        }
+
+        .controls-toggle.open {
+            border-radius: 8px 8px 0 0;
+            border-bottom: none;
+        }
+
+        .controls-toggle:not(.open) {
+            margin-bottom: 25px;
+        }
+
+        .controls-toggle-label {
+            font-size: 0.95em;
+            font-weight: 600;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .controls-toggle-arrow {
+            font-size: 0.8em;
+            color: var(--text-secondary);
+            transition: transform 0.2s;
+        }
+
+        .controls-toggle.open .controls-toggle-arrow {
+            transform: rotate(180deg);
         }
 
         .controls {
             background: var(--card-bg);
-            padding: 20px;
-            border-radius: 8px;
+            padding: 0 20px 20px 20px;
+            border-radius: 0 0 8px 8px;
             box-shadow: var(--shadow);
             margin-bottom: 25px;
             border: 1px solid var(--border-color);
+            border-top: none;
+            display: none;
+        }
+
+        .controls.open {
             display: block;
         }
 
@@ -274,20 +316,21 @@
         .modal-back {
             display: inline-flex;
             align-items: center;
-            gap: 6px;
-            background: none;
+            gap: 8px;
+            background: #333;
+            color: #fff;
             border: none;
             cursor: pointer;
             font-family: inherit;
             font-size: 0.95em;
-            font-weight: 500;
-            color: var(--text-secondary);
-            padding: 8px 0;
-            margin-bottom: 16px;
+            font-weight: 600;
+            padding: 10px 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
         }
 
         .modal-back:hover {
-            color: var(--text-primary);
+            background: #555;
         }
 
         .modal-content {
@@ -562,7 +605,7 @@
             }
 
             .game-card {
-                aspect-ratio: 3 / 4;
+                aspect-ratio: 1 / 1;
                 border-radius: 10px;
             }
 
@@ -698,6 +741,10 @@
         document.addEventListener('DOMContentLoaded', () => {
             loadLibrary();
             setupEventListeners();
+            // Open filters by default on desktop, collapsed on mobile
+            if (window.innerWidth > 600) {
+                toggleControls();
+            }
         });
 
         function toggleControls() {
