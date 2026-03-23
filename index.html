@@ -395,52 +395,8 @@
             line-height: 1.6;
             margin-bottom: 12px;
             font-size: 0.9em;
-        }
-
-        .modal-description.collapsed {
-            max-height: 4.8em;
-            overflow: hidden;
-        }
-
-
-        .modal-toggle-desc {
-            width: 100%;
-            border: none;
-            background: none;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            padding: 0;
-            margin: -4px 0 12px 0;
-            color: var(--text-secondary);
-        }
-
-        .modal-toggle-desc::before,
-        .modal-toggle-desc::after {
-            content: '';
-            flex: 1;
-            height: 1px;
-            background: var(--border-color);
-        }
-
-        .modal-toggle-desc .toggle-icon {
-            font-size: 0.75em;
-            transition: transform 0.2s;
-            line-height: 1;
-        }
-
-        .modal-toggle-desc.expanded .toggle-icon {
-            transform: rotate(180deg);
-        }
-
-        .modal-toggle-desc:hover {
-            color: var(--text-primary);
-        }
-
-        .modal-toggle-desc:hover::before,
-        .modal-toggle-desc:hover::after {
-            background: var(--text-secondary);
+            border-top: 1px solid var(--border-color);
+            padding-top: 12px;
         }
 
         .modal-expansion-banner {
@@ -620,6 +576,15 @@
 
             .modal-title {
                 font-size: 1.3em;
+            }
+
+            .modal-overlay {
+                overflow: visible;
+            }
+
+            .modal-description {
+                max-height: none;
+                overflow: visible;
             }
         }
     </style>
@@ -987,8 +952,10 @@
             const game = allGames.find(g => g.id === gameId);
             if (!game) return;
 
-            // Image & title
-            document.getElementById('modalImage').src = game.image || game.thumbnail || '';
+            // Image & title — re-measure iframe height once image loads
+            const modalImg = document.getElementById('modalImage');
+            modalImg.onload = postHeight;
+            modalImg.src = game.image || game.thumbnail || '';
             document.getElementById('modalTitle').textContent = decodeHtml(game.name);
 
             // Expansion banner
@@ -1125,18 +1092,6 @@
             window.scrollTo(0, 0);
             window.parent.postMessage({ type: 'scroll-to-iframe' }, '*');
             requestAnimationFrame(postHeight);
-        }
-
-        function toggleDescription() {
-            const descEl = document.getElementById('modalDescription');
-            const toggleBtn = document.getElementById('modalToggleDesc');
-            if (descEl.classList.contains('collapsed')) {
-                descEl.classList.remove('collapsed');
-                toggleBtn.classList.add('expanded');
-            } else {
-                descEl.classList.add('collapsed');
-                toggleBtn.classList.remove('expanded');
-            }
         }
 
         function closeModal() {
