@@ -635,6 +635,16 @@
                     </select>
                 </div>
                 <div class="control-group">
+                    <label for="complexity">Complexity</label>
+                    <select id="complexity">
+                        <option value="">Any</option>
+                        <option value="Easy">Easy</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Challenging">Challenging</option>
+                        <option value="Epic">Epic</option>
+                    </select>
+                </div>
+                <div class="control-group">
                     <label for="sort">Sort By</label>
                     <select id="sort">
                         <option value="name">Name (A-Z)</option>
@@ -651,7 +661,7 @@
                     <button onclick="resetFilters()" style="padding: 10px 20px; border: none; border-radius: 8px; background: #333; color: #fff; font-family: inherit; font-size: 1em; cursor: pointer;">Reset</button>
                 </div>
             </div>
-            <div class="filter-tags" id="categoryFilters"></div>
+            <div class="filter-tags" id="genreFilters"></div>
         </div>
 
         <div class="stats-bar">
@@ -695,7 +705,7 @@
     <script>
         let allGames = [];
         let filteredGames = [];
-        let selectedCategories = new Set();
+        let selectedGenres = new Set();
 
         // Initialize the application
         document.addEventListener('DOMContentLoaded', () => {
@@ -718,9 +728,10 @@
             document.getElementById('search').value = '';
             document.getElementById('players').value = '';
             document.getElementById('playtime').value = '';
+            document.getElementById('complexity').value = '';
             document.getElementById('sort').value = 'name';
-            selectedCategories.clear();
-            renderCategoryFilters();
+            selectedGenres.clear();
+            renderGenreFilters();
             applyFilters();
         }
 
@@ -728,6 +739,7 @@
             document.getElementById('search').addEventListener('input', debounce(applyFilters, 300));
             document.getElementById('players').addEventListener('change', applyFilters);
             document.getElementById('playtime').addEventListener('change', applyFilters);
+            document.getElementById('complexity').addEventListener('change', applyFilters);
             document.getElementById('sort').addEventListener('change', applyFilters);
         }
 
@@ -772,37 +784,28 @@
 
         function renderGames() {
             applyFilters();
-            renderCategoryFilters();
+            renderGenreFilters();
         }
 
-        function renderCategoryFilters() {
-            const categoryCount = {};
-            allGames.forEach(game => {
-                (game.categories || []).forEach(cat => {
-                    categoryCount[cat] = (categoryCount[cat] || 0) + 1;
-                });
-            });
+        // Our shelf genres (shelfLocation), A-Z; only genres that have games show up
+        function renderGenreFilters() {
+            const genres = [...new Set(allGames.map(game => game.shelfLocation).filter(Boolean))]
+                .sort((a, b) => a.localeCompare(b));
 
-            // Sort by count and take top categories
-            const topCategories = Object.entries(categoryCount)
-                .sort((a, b) => b[1] - a[1])
-                .slice(0, 12)
-                .map(([cat]) => cat);
-
-            const container = document.getElementById('categoryFilters');
-            container.innerHTML = topCategories.map(cat => `
-                <span class="filter-tag ${selectedCategories.has(cat) ? 'active' : ''}"
-                      onclick="toggleCategory('${cat.replace(/'/g, "\\'")}')">${cat}</span>
+            const container = document.getElementById('genreFilters');
+            container.innerHTML = genres.map(genre => `
+                <span class="filter-tag ${selectedGenres.has(genre) ? 'active' : ''}"
+                      onclick="toggleGenre('${genre.replace(/'/g, "\\'")}')">${escapeHtml(genre)}</span>
             `).join('');
         }
 
-        function toggleCategory(category) {
-            if (selectedCategories.has(category)) {
-                selectedCategories.delete(category);
+        function toggleGenre(genre) {
+            if (selectedGenres.has(genre)) {
+                selectedGenres.delete(genre);
             } else {
-                selectedCategories.add(category);
+                selectedGenres.add(genre);
             }
-            renderCategoryFilters();
+            renderGenreFilters();
             applyFilters();
         }
 
@@ -810,6 +813,7 @@
             const search = document.getElementById('search').value.toLowerCase();
             const players = document.getElementById('players').value;
             const playtime = document.getElementById('playtime').value;
+            const complexity = document.getElementById('complexity').value;
             const sort = document.getElementById('sort').value;
 
             filteredGames = allGames.filter(game => {
@@ -838,17 +842,14 @@
                     if (t === 999 && gameTime <= 120) return false;
                 }
 
-                // Category filter
-                if (selectedCategories.size > 0) {
-                    const gameCategories = new Set(game.categories || []);
-                    let hasCategory = false;
-                    for (const cat of selectedCategories) {
-                        if (gameCategories.has(cat)) {
-                            hasCategory = true;
-                            break;
-                        }
-                    }
-                    if (!hasCategory) return false;
+                // Complexity filter
+                if (complexity && game.ourComplexity !== complexity) {
+                    return false;
+                }
+
+                // Genre filter (any of the selected genres)
+                if (selectedGenres.size > 0 && !selectedGenres.has(game.shelfLocation)) {
+                    return false;
                 }
 
                 return true;
@@ -1008,7 +1009,7 @@
             if (game.shelfLocation) {
                 metaHtml += `
                 <div class="modal-meta-item">
-                    <span class="modal-meta-label">Location</span>
+                    <span class="modal-meta-label">Genre</span>
                     <span class="modal-meta-value">${escapeHtml(game.shelfLocation)}</span>
                 </div>`;
             }
