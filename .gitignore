@@ -1,0 +1,7 @@
+# This folder holds lots of private files (spreadsheets, the BGG token, covers,
+# rules). Only the website files below are published to the public repo.
+*
+!.gitignore
+!index.html
+!games.json
+!update-library.py
