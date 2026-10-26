@@ -44,7 +44,7 @@ TOKEN_FILE = os.path.join(SCRIPT_DIR, 'bgg_xml_api_access_token.txt')
 SHEET_FILE = os.path.join(SCRIPT_DIR, 'game_library_master.xlsx')
 SHEET_NAME = 'Shelf Info'
 GENRES_SHEET = 'Genres'
-COMPLEXITY_LEVELS = ['Easy', 'Medium', 'Challenging', 'Epic']
+COMPLEXITY_LEVELS = ['Light', 'Medium', 'Challenging', 'Epic']
 # Custom fields we fill in ourselves (BGG never overwrites them), with defaults
 CUSTOM_FIELDS = {
     'ourComplexity': '',
