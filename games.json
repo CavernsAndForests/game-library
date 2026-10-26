@@ -184,8 +184,8 @@
       "bggRank": 115,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Card/Dice Drafting",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -262,8 +262,8 @@
       "bggRank": 24,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Two-Player Only",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -731,8 +731,8 @@
       "bggRank": 1972,
       "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -1666,9 +1666,9 @@
       "bggRank": 416,
       "languageDependence": "Some necessary text - easily memorized or small crib sheet",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
-      "smallArea": false,
+      "ourComplexity": "Light",
+      "shelfLocation": "Two-Player Only",
+      "smallArea": true,
       "adultsOnly": false
     },
     {
@@ -1714,9 +1714,9 @@
       "bggRank": 1569,
       "languageDependence": "Extensive use of text - massive conversion needed to be playable",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
-      "smallArea": false,
+      "ourComplexity": "Light",
+      "shelfLocation": "Two-Player Only",
+      "smallArea": true,
       "adultsOnly": false
     },
     {
@@ -1789,8 +1789,8 @@
       "bggRank": 450,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Town & City Builders",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -1855,8 +1855,8 @@
       "bggRank": 1084,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Two-Player Only",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -2154,8 +2154,8 @@
       "bggRank": 1348,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Kids Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -2213,8 +2213,8 @@
       "bggRank": 1857,
       "languageDependence": "Unplayable in another language",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -2500,8 +2500,8 @@
       "bggRank": 13091,
       "languageDependence": "Extensive use of text - massive conversion needed to be playable",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Kids Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -6237,8 +6237,8 @@
       "bggRank": 1845,
       "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Card/Dice Drafting",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -6285,8 +6285,8 @@
         "id": "223740",
         "name": "Bargain Quest"
       },
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Card/Dice Drafting",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -6332,8 +6332,8 @@
         "id": "223740",
         "name": "Bargain Quest"
       },
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Card/Dice Drafting",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -6429,8 +6429,8 @@
       "bggRank": 327,
       "languageDependence": "Some necessary text - easily memorized or small crib sheet",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Two-Player Only",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -6964,8 +6964,8 @@
       "bggRank": 774,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Town & City Builders",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -7129,8 +7129,8 @@
       "bggRank": 514,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Card/Dice Drafting",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -7463,8 +7463,8 @@
       "bggRank": 7903,
       "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -7844,7 +7844,7 @@
       "bggRank": 543,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "Easy",
+      "ourComplexity": "Light",
       "shelfLocation": "Negotiation",
       "smallArea": false,
       "adultsOnly": false
@@ -8057,9 +8057,9 @@
       "bggRank": 1315,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
-      "smallArea": false,
+      "ourComplexity": "Light",
+      "shelfLocation": "Two-Player Only",
+      "smallArea": true,
       "adultsOnly": false
     },
     {
@@ -8897,8 +8897,8 @@
       "bggRank": 29869,
       "languageDependence": "Unplayable in another language",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Kids Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -9011,7 +9011,7 @@
       "bggRank": 766,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "Easy",
+      "ourComplexity": "Light",
       "shelfLocation": "Push Your Luck",
       "smallArea": false,
       "adultsOnly": false
@@ -9063,8 +9063,8 @@
       "bggRank": 1173,
       "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Two-Player Only",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -9125,8 +9125,8 @@
       "bggRank": 591,
       "languageDependence": "Some necessary text - easily memorized or small crib sheet",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Card/Dice Drafting",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -9172,8 +9172,8 @@
       "bggRank": 919,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -9382,10 +9382,10 @@
       "bggRank": 15060,
       "languageDependence": "Extensive use of text - massive conversion needed to be playable",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
-      "adultsOnly": false
+      "adultsOnly": true
     },
     {
       "id": "263918",
@@ -9592,8 +9592,8 @@
       "bggRank": 60,
       "languageDependence": "Some necessary text - easily memorized or small crib sheet",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Town & City Builders",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -10041,7 +10041,7 @@
       "bggRank": 615,
       "languageDependence": "Some necessary text - easily memorized or small crib sheet",
       "baseGame": null,
-      "ourComplexity": "Easy",
+      "ourComplexity": "Light",
       "shelfLocation": "Negotiation",
       "smallArea": false,
       "adultsOnly": false
@@ -10087,7 +10087,7 @@
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
       "ourComplexity": "",
-      "shelfLocation": "",
+      "shelfLocation": "Kids Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -10227,10 +10227,10 @@
       "bggRank": 12909,
       "languageDependence": "",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
-      "adultsOnly": false
+      "adultsOnly": true
     },
     {
       "id": "312529",
@@ -10270,7 +10270,7 @@
       "languageDependence": "Extensive use of text - massive conversion needed to be playable",
       "baseGame": null,
       "ourComplexity": "",
-      "shelfLocation": "",
+      "shelfLocation": "Kids Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -10787,7 +10787,7 @@
       "bggRank": 374,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "Easy",
+      "ourComplexity": "Light",
       "shelfLocation": "Negotiation",
       "smallArea": false,
       "adultsOnly": false
@@ -11174,7 +11174,7 @@
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
       "ourComplexity": "",
-      "shelfLocation": "",
+      "shelfLocation": "Kids Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -11506,8 +11506,8 @@
       "bggRank": 14586,
       "languageDependence": "Some necessary text - easily memorized or small crib sheet",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Classics",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -11566,8 +11566,8 @@
       "bggRank": 1082,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -11626,8 +11626,8 @@
       "bggRank": 1082,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -11678,8 +11678,8 @@
       "bggRank": 1314,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -11767,8 +11767,8 @@
       "bggRank": 160,
       "languageDependence": "Unplayable in another language",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -11838,8 +11838,8 @@
       "bggRank": 273,
       "languageDependence": "Unplayable in another language",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Two-Player Only",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -12069,8 +12069,8 @@
       "bggRank": 554,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -12181,8 +12181,8 @@
       "bggRank": 659,
       "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Two-Player Only",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -12238,8 +12238,8 @@
         "id": "406652",
         "name": "Compile"
       },
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Two-Player Only",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -12289,8 +12289,8 @@
       "bggRank": 3755,
       "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Two-Player Only",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -12347,8 +12347,8 @@
       "bggRank": 1125,
       "languageDependence": "Extensive use of text - massive conversion needed to be playable",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -13576,8 +13576,8 @@
       "bggRank": 1883,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Challenging",
+      "shelfLocation": "Two-Player Only",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -13669,8 +13669,8 @@
       "bggRank": 7705,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -13716,7 +13716,7 @@
       "bggRank": 3463,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "Easy",
+      "ourComplexity": "Light",
       "shelfLocation": "War & Area Control",
       "smallArea": false,
       "adultsOnly": false
@@ -14048,8 +14048,8 @@
       "bggRank": 117,
       "languageDependence": "Unplayable in another language",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -14616,7 +14616,7 @@
       "bggRank": 888,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "Easy",
+      "ourComplexity": "Light",
       "shelfLocation": "Push Your Luck",
       "smallArea": false,
       "adultsOnly": false
@@ -14671,8 +14671,8 @@
       "bggRank": 490,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Card/Dice Drafting",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -14715,9 +14715,9 @@
       "bggRank": 1340,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
-      "smallArea": false,
+      "ourComplexity": "Medium",
+      "shelfLocation": "Card/Dice Drafting",
+      "smallArea": true,
       "adultsOnly": false
     },
     {
@@ -16151,8 +16151,8 @@
       "bggRank": 328,
       "languageDependence": "Some necessary text - easily memorized or small crib sheet",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Town & City Builders",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -16271,9 +16271,9 @@
       "bggRank": 1232,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
-      "smallArea": false,
+      "ourComplexity": "Light",
+      "shelfLocation": "Two-Player Only",
+      "smallArea": true,
       "adultsOnly": false
     },
     {
@@ -16369,10 +16369,10 @@
       "bggRank": 4425,
       "languageDependence": "Extensive use of text - massive conversion needed to be playable",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
-      "adultsOnly": false
+      "adultsOnly": true
     },
     {
       "id": "378751",
@@ -17526,7 +17526,7 @@
       "bggRank": 1548,
       "languageDependence": "Extensive use of text - massive conversion needed to be playable",
       "baseGame": null,
-      "ourComplexity": "Easy",
+      "ourComplexity": "Light",
       "shelfLocation": "Adventure",
       "smallArea": false,
       "adultsOnly": false
@@ -17801,8 +17801,8 @@
       "bggRank": 13274,
       "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -18243,8 +18243,8 @@
       "bggRank": 3951,
       "languageDependence": "Some necessary text - easily memorized or small crib sheet",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -18544,8 +18544,8 @@
       "bggRank": 12162,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Kids Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -19925,7 +19925,7 @@
       "bggRank": 517,
       "languageDependence": "Some necessary text - easily memorized or small crib sheet",
       "baseGame": null,
-      "ourComplexity": "Easy",
+      "ourComplexity": "Light",
       "shelfLocation": "Push Your Luck",
       "smallArea": true,
       "adultsOnly": false
@@ -20359,8 +20359,8 @@
       "bggRank": 1357,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Town & City Builders",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -20635,8 +20635,8 @@
       "bggRank": 1665,
       "languageDependence": "Extensive use of text - massive conversion needed to be playable",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -21839,8 +21839,8 @@
       "bggRank": 67,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Challenging",
+      "shelfLocation": "Card/Dice Drafting",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -21895,8 +21895,8 @@
         "id": "182874",
         "name": "Grand Austria Hotel"
       },
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Challenging",
+      "shelfLocation": "Card/Dice Drafting",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -22102,8 +22102,8 @@
       "bggRank": 1811,
       "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -22197,7 +22197,7 @@
       "bggRank": 9724,
       "languageDependence": "",
       "baseGame": null,
-      "ourComplexity": "Easy",
+      "ourComplexity": "Light",
       "shelfLocation": "Negotiation",
       "smallArea": false,
       "adultsOnly": false
@@ -22477,9 +22477,9 @@
       "bggRank": 594,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
-      "smallArea": false,
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
+      "smallArea": true,
       "adultsOnly": false
     },
     {
@@ -22545,9 +22545,9 @@
       "bggRank": 281,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
-      "smallArea": false,
+      "ourComplexity": "Light",
+      "shelfLocation": "Two-Player Only",
+      "smallArea": true,
       "adultsOnly": false
     },
     {
@@ -22606,8 +22606,8 @@
       "bggRank": 1773,
       "languageDependence": "Some necessary text - easily memorized or small crib sheet",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -22934,8 +22934,8 @@
       "bggRank": 2450,
       "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -23112,8 +23112,8 @@
       "bggRank": 535,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -23227,7 +23227,7 @@
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
       "ourComplexity": "",
-      "shelfLocation": "",
+      "shelfLocation": "Two-Player Only",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -23624,8 +23624,8 @@
       "bggRank": 2373,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -23946,7 +23946,7 @@
       "bggRank": 23435,
       "languageDependence": "",
       "baseGame": null,
-      "ourComplexity": "Easy",
+      "ourComplexity": "Light",
       "shelfLocation": "Solo-Only",
       "smallArea": true,
       "adultsOnly": false
@@ -24191,8 +24191,8 @@
       "bggRank": 1403,
       "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Two-Player Only",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -24258,9 +24258,9 @@
       "bggRank": 200,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
-      "smallArea": false,
+      "ourComplexity": "Light",
+      "shelfLocation": "Two-Player Only",
+      "smallArea": true,
       "adultsOnly": false
     },
     {
@@ -24467,10 +24467,10 @@
       "bggRank": 3477,
       "languageDependence": "Extensive use of text - massive conversion needed to be playable",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
-      "adultsOnly": false
+      "adultsOnly": true
     },
     {
       "id": "357778",
@@ -24662,8 +24662,8 @@
       "bggRank": 15757,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Kids Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -24777,8 +24777,8 @@
       "bggRank": 156,
       "languageDependence": "Unplayable in another language",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -25135,7 +25135,7 @@
       "bggRank": 488,
       "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
       "baseGame": null,
-      "ourComplexity": "Easy",
+      "ourComplexity": "Light",
       "shelfLocation": "Skirmish & Battlers",
       "smallArea": false,
       "adultsOnly": false
@@ -25300,8 +25300,8 @@
       "bggRank": 325,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Town & City Builders",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -25359,8 +25359,8 @@
         "id": "204583",
         "name": "Kingdomino"
       },
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Town & City Builders",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -25609,9 +25609,9 @@
       "bggRank": 1713,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
-      "smallArea": false,
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
+      "smallArea": true,
       "adultsOnly": false
     },
     {
@@ -25875,7 +25875,7 @@
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
       "ourComplexity": "",
-      "shelfLocation": "",
+      "shelfLocation": "Two-Player Only",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -25970,8 +25970,8 @@
       "bggRank": 2998,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -26080,7 +26080,7 @@
       "bggRank": 1414,
       "languageDependence": "Extensive use of text - massive conversion needed to be playable",
       "baseGame": null,
-      "ourComplexity": "Easy",
+      "ourComplexity": "Light",
       "shelfLocation": "Campaigns",
       "smallArea": false,
       "adultsOnly": false
@@ -26310,8 +26310,8 @@
       "bggRank": 1177,
       "languageDependence": "Some necessary text - easily memorized or small crib sheet",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Town & City Builders",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -26785,8 +26785,8 @@
       "bggRank": 343,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Two-Player Only",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -27271,8 +27271,8 @@
       "bggRank": 1874,
       "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Town & City Builders",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -29930,7 +29930,7 @@
       "bggRank": 6136,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "Easy",
+      "ourComplexity": "Light",
       "shelfLocation": "Solo-Only",
       "smallArea": false,
       "adultsOnly": false
@@ -29981,8 +29981,8 @@
       "bggRank": 2314,
       "languageDependence": "Extensive use of text - massive conversion needed to be playable",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -30330,7 +30330,7 @@
       "bggRank": 1347,
       "languageDependence": "Some necessary text - easily memorized or small crib sheet",
       "baseGame": null,
-      "ourComplexity": "Easy",
+      "ourComplexity": "Light",
       "shelfLocation": "Solo-Only",
       "smallArea": true,
       "adultsOnly": false
@@ -30384,7 +30384,7 @@
         "id": "311715",
         "name": "Mini Rogue"
       },
-      "ourComplexity": "Easy",
+      "ourComplexity": "Light",
       "shelfLocation": "Solo-Only",
       "smallArea": false,
       "adultsOnly": false
@@ -30436,7 +30436,7 @@
         "id": "311715",
         "name": "Mini Rogue"
       },
-      "ourComplexity": "Easy",
+      "ourComplexity": "Light",
       "shelfLocation": "Solo-Only",
       "smallArea": false,
       "adultsOnly": false
@@ -30725,8 +30725,8 @@
       "bggRank": 302,
       "languageDependence": "Extensive use of text - massive conversion needed to be playable",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -30938,8 +30938,8 @@
       "bggRank": 30362,
       "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Classics",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -31066,8 +31066,8 @@
       "bggRank": 27669,
       "languageDependence": "",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Kids Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -31108,8 +31108,8 @@
       "bggRank": 9514,
       "languageDependence": "",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -31618,8 +31618,8 @@
       "bggRank": 6222,
       "languageDependence": "Unplayable in another language",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -31699,7 +31699,7 @@
       "bggRank": 6407,
       "languageDependence": "Extensive use of text - massive conversion needed to be playable",
       "baseGame": null,
-      "ourComplexity": "Easy",
+      "ourComplexity": "Light",
       "shelfLocation": "Adventure",
       "smallArea": false,
       "adultsOnly": false
@@ -31805,8 +31805,8 @@
       "bggRank": 4813,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Kids Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -31853,8 +31853,8 @@
       "bggRank": 13629,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Kids Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -32581,8 +32581,8 @@
       "bggRank": 0,
       "languageDependence": "",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -33017,7 +33017,7 @@
       "bggRank": 1006,
       "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
       "baseGame": null,
-      "ourComplexity": "Easy",
+      "ourComplexity": "Light",
       "shelfLocation": "Solo-Only",
       "smallArea": false,
       "adultsOnly": false
@@ -33075,7 +33075,7 @@
       "bggRank": 1576,
       "languageDependence": "Some necessary text - easily memorized or small crib sheet",
       "baseGame": null,
-      "ourComplexity": "Easy",
+      "ourComplexity": "Light",
       "shelfLocation": "Solo-Only",
       "smallArea": false,
       "adultsOnly": false
@@ -33188,7 +33188,7 @@
       "bggRank": 1795,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "Easy",
+      "ourComplexity": "Light",
       "shelfLocation": "Solo-Only",
       "smallArea": true,
       "adultsOnly": false
@@ -33242,9 +33242,9 @@
       "bggRank": 355,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
-      "smallArea": false,
+      "ourComplexity": "Light",
+      "shelfLocation": "Two-Player Only",
+      "smallArea": true,
       "adultsOnly": false
     },
     {
@@ -33297,8 +33297,8 @@
         "id": "160477",
         "name": "Onitama"
       },
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Two-Player Only",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -33346,8 +33346,8 @@
         "id": "160477",
         "name": "Onitama"
       },
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Two-Player Only",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -33398,8 +33398,8 @@
         "id": "160477",
         "name": "Onitama"
       },
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Two-Player Only",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -33559,8 +33559,8 @@
       "bggRank": 1085,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Kids Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -34019,8 +34019,8 @@
       "bggRank": 146,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Two-Player Only",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -34183,8 +34183,8 @@
       "bggRank": 1332,
       "languageDependence": "Extensive use of text - massive conversion needed to be playable",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -34242,7 +34242,7 @@
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
       "ourComplexity": "",
-      "shelfLocation": "",
+      "shelfLocation": "Classics",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -34477,8 +34477,8 @@
       "bggRank": 1088,
       "languageDependence": "Extensive use of text - massive conversion needed to be playable",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -34536,8 +34536,8 @@
       "bggRank": 1143,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -34588,8 +34588,8 @@
         "id": "284108",
         "name": "Pictures"
       },
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -34636,8 +34636,8 @@
         "id": "284108",
         "name": "Pictures"
       },
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -34679,8 +34679,8 @@
       "bggRank": 6037,
       "languageDependence": "",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Two-Player Only",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -34772,8 +34772,8 @@
       "bggRank": 2360,
       "languageDependence": "Unplayable in another language",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -35174,8 +35174,8 @@
       "bggRank": 10851,
       "languageDependence": "",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -35220,7 +35220,7 @@
       "bggRank": 2082,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "Easy",
+      "ourComplexity": "Light",
       "shelfLocation": "Push Your Luck",
       "smallArea": true,
       "adultsOnly": false
@@ -35397,8 +35397,8 @@
       "bggRank": 578,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Town & City Builders",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -35454,9 +35454,9 @@
       "bggRank": 1164,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
-      "smallArea": false,
+      "ourComplexity": "Light",
+      "shelfLocation": "Two-Player Only",
+      "smallArea": true,
       "adultsOnly": false
     },
     {
@@ -35632,9 +35632,9 @@
       "bggRank": 1673,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
-      "smallArea": false,
+      "ourComplexity": "Light",
+      "shelfLocation": "Two-Player Only",
+      "smallArea": true,
       "adultsOnly": false
     },
     {
@@ -36122,8 +36122,8 @@
       "bggRank": 208,
       "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Two-Player Only",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -36337,9 +36337,9 @@
       "bggRank": 12688,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
-      "smallArea": false,
+      "ourComplexity": "Light",
+      "shelfLocation": "Two-Player Only",
+      "smallArea": true,
       "adultsOnly": false
     },
     {
@@ -36386,8 +36386,8 @@
       "bggRank": 10482,
       "languageDependence": "Some necessary text - easily memorized or small crib sheet",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -36469,8 +36469,8 @@
       "bggRank": 4654,
       "languageDependence": "Extensive use of text - massive conversion needed to be playable",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -36510,8 +36510,8 @@
         "id": "349812",
         "name": "Ransom Notes"
       },
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -36550,8 +36550,8 @@
       "bggRank": 10137,
       "languageDependence": "",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -37018,8 +37018,8 @@
       "bggRank": 1033,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Kids Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -37144,8 +37144,8 @@
       "bggRank": 29277,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Classics",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -37398,8 +37398,8 @@
       "bggRank": 296,
       "languageDependence": "Extensive use of text - massive conversion needed to be playable",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Card/Dice Drafting",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -37516,8 +37516,8 @@
         "id": "169426",
         "name": "Roll Player"
       },
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Card/Dice Drafting",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -37573,8 +37573,8 @@
         "id": "169426",
         "name": "Roll Player"
       },
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Card/Dice Drafting",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -38519,9 +38519,9 @@
       "bggRank": 992,
       "languageDependence": "Some necessary text - easily memorized or small crib sheet",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
-      "smallArea": false,
+      "ourComplexity": "Light",
+      "shelfLocation": "Two-Player Only",
+      "smallArea": true,
       "adultsOnly": false
     },
     {
@@ -38658,7 +38658,7 @@
       "bggRank": 4553,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "Easy",
+      "ourComplexity": "Light",
       "shelfLocation": "Push Your Luck",
       "smallArea": true,
       "adultsOnly": false
@@ -38708,8 +38708,8 @@
       "bggRank": 1706,
       "languageDependence": "Extensive use of text - massive conversion needed to be playable",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -38802,7 +38802,7 @@
       "languageDependence": "Unplayable in another language",
       "baseGame": null,
       "ourComplexity": "",
-      "shelfLocation": "",
+      "shelfLocation": "Classics",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -38958,7 +38958,7 @@
       "languageDependence": "Unplayable in another language",
       "baseGame": null,
       "ourComplexity": "",
-      "shelfLocation": "",
+      "shelfLocation": "Classics",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -38987,7 +38987,7 @@
       "languageDependence": "",
       "baseGame": null,
       "ourComplexity": "",
-      "shelfLocation": "",
+      "shelfLocation": "Classics",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -39016,7 +39016,7 @@
       "languageDependence": "",
       "baseGame": null,
       "ourComplexity": "",
-      "shelfLocation": "",
+      "shelfLocation": "Classics",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -39658,7 +39658,7 @@
       "bggRank": 3606,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "Easy",
+      "ourComplexity": "Light",
       "shelfLocation": "War & Area Control",
       "smallArea": false,
       "adultsOnly": false
@@ -40042,8 +40042,8 @@
       "bggRank": 3093,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Town & City Builders",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -40508,8 +40508,8 @@
       "bggRank": 5304,
       "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -40568,9 +40568,9 @@
       "bggRank": 487,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
-      "smallArea": false,
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
+      "smallArea": true,
       "adultsOnly": false
     },
     {
@@ -40692,8 +40692,8 @@
       "bggRank": 33,
       "languageDependence": "Some necessary text - easily memorized or small crib sheet",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Two-Player Only",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -41150,8 +41150,8 @@
       "bggRank": 2313,
       "languageDependence": "Unplayable in another language",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -41350,8 +41350,8 @@
       "bggRank": 271,
       "languageDependence": "Unplayable in another language",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -41417,8 +41417,8 @@
       "bggRank": 30353,
       "languageDependence": "Some necessary text - easily memorized or small crib sheet",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Kids Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -41464,8 +41464,8 @@
       "bggRank": 3408,
       "languageDependence": "Extensive use of text - massive conversion needed to be playable",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -42139,9 +42139,9 @@
       "bggRank": 111,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
-      "smallArea": false,
+      "ourComplexity": "Medium",
+      "shelfLocation": "Two-Player Only",
+      "smallArea": true,
       "adultsOnly": false
     },
     {
@@ -42507,7 +42507,7 @@
       "bggRank": 6105,
       "languageDependence": "",
       "baseGame": null,
-      "ourComplexity": "Easy",
+      "ourComplexity": "Light",
       "shelfLocation": "Solo-Only",
       "smallArea": false,
       "adultsOnly": false
@@ -43152,7 +43152,7 @@
       "bggRank": 1280,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "Easy",
+      "ourComplexity": "Light",
       "shelfLocation": "Push Your Luck",
       "smallArea": true,
       "adultsOnly": false
@@ -43190,8 +43190,8 @@
       "bggRank": 9950,
       "languageDependence": "",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -43257,8 +43257,8 @@
       "bggRank": 247,
       "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Challenging",
+      "shelfLocation": "Town & City Builders",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -43311,8 +43311,8 @@
         "id": "123260",
         "name": "Suburbia"
       },
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Challenging",
+      "shelfLocation": "Town & City Builders",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -43368,8 +43368,8 @@
         "id": "123260",
         "name": "Suburbia"
       },
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Challenging",
+      "shelfLocation": "Town & City Builders",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -43497,8 +43497,8 @@
       "bggRank": 9413,
       "languageDependence": "Unplayable in another language",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -43616,8 +43616,8 @@
       "bggRank": 373,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -43671,8 +43671,8 @@
       "bggRank": 285,
       "languageDependence": "Some necessary text - easily memorized or small crib sheet",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Card/Dice Drafting",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -43742,9 +43742,9 @@
       "bggRank": 652,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
-      "smallArea": false,
+      "ourComplexity": "Light",
+      "shelfLocation": "Card/Dice Drafting",
+      "smallArea": true,
       "adultsOnly": false
     },
     {
@@ -44314,8 +44314,8 @@
       "bggRank": 172,
       "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Two-Player Only",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -44368,8 +44368,8 @@
         "id": "118048",
         "name": "Targi"
       },
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Two-Player Only",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -44469,8 +44469,8 @@
       "bggRank": 348,
       "languageDependence": "Extensive use of text - massive conversion needed to be playable",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -44569,7 +44569,7 @@
       "bggRank": 12573,
       "languageDependence": "",
       "baseGame": null,
-      "ourComplexity": "Easy",
+      "ourComplexity": "Light",
       "shelfLocation": "Adventure",
       "smallArea": false,
       "adultsOnly": false
@@ -44983,8 +44983,8 @@
       "bggRank": 0,
       "languageDependence": "",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -45507,7 +45507,7 @@
       "bggRank": 9023,
       "languageDependence": "",
       "baseGame": null,
-      "ourComplexity": "Easy",
+      "ourComplexity": "Light",
       "shelfLocation": "Skirmish & Battlers",
       "smallArea": false,
       "adultsOnly": false
@@ -45617,9 +45617,9 @@
       "bggRank": 679,
       "languageDependence": "Some necessary text - easily memorized or small crib sheet",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
-      "smallArea": false,
+      "ourComplexity": "Light",
+      "shelfLocation": "Two-Player Only",
+      "smallArea": true,
       "adultsOnly": false
     },
     {
@@ -45677,9 +45677,9 @@
       "bggRank": 1492,
       "languageDependence": "Some necessary text - easily memorized or small crib sheet",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
-      "smallArea": false,
+      "ourComplexity": "Light",
+      "shelfLocation": "Two-Player Only",
+      "smallArea": true,
       "adultsOnly": false
     },
     {
@@ -45927,8 +45927,8 @@
       "bggRank": 2008,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Challenging",
+      "shelfLocation": "Card/Dice Drafting",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -46098,8 +46098,8 @@
       "bggRank": 21,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Two-Player Only",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -46227,8 +46227,8 @@
       "bggRank": 1105,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -46271,9 +46271,9 @@
       "bggRank": 7212,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
-      "smallArea": false,
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
+      "smallArea": true,
       "adultsOnly": false
     },
     {
@@ -46492,10 +46492,10 @@
       "bggRank": 0,
       "languageDependence": "",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
-      "adultsOnly": false
+      "adultsOnly": true
     },
     {
       "id": "217372",
@@ -47120,8 +47120,8 @@
       "bggRank": 1499,
       "languageDependence": "Some necessary text - easily memorized or small crib sheet",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -47406,8 +47406,8 @@
       "bggRank": 2268,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Kids Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -47566,8 +47566,8 @@
       "bggRank": 19477,
       "languageDependence": "",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -47609,8 +47609,8 @@
       "bggRank": 715,
       "languageDependence": "Unplayable in another language",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -48056,8 +48056,8 @@
       "bggRank": 519,
       "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Town & City Builders",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -48694,10 +48694,10 @@
       "bggRank": 5096,
       "languageDependence": "Unplayable in another language",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
-      "adultsOnly": false
+      "adultsOnly": true
     },
     {
       "id": "244358",
@@ -48847,7 +48847,7 @@
       "bggRank": 2780,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "Easy",
+      "ourComplexity": "Light",
       "shelfLocation": "Push Your Luck",
       "smallArea": false,
       "adultsOnly": false
@@ -48884,8 +48884,8 @@
       "bggRank": 8810,
       "languageDependence": "Unplayable in another language",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Classics",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -48974,7 +48974,7 @@
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
       "ourComplexity": "",
-      "shelfLocation": "",
+      "shelfLocation": "Kids Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -49073,8 +49073,8 @@
       "bggRank": 1230,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -50011,7 +50011,7 @@
       "bggRank": 2291,
       "languageDependence": "Extensive use of text - massive conversion needed to be playable",
       "baseGame": null,
-      "ourComplexity": "Easy",
+      "ourComplexity": "Light",
       "shelfLocation": "War & Area Control",
       "smallArea": false,
       "adultsOnly": false
@@ -50180,8 +50180,8 @@
       "bggRank": 2349,
       "languageDependence": "Extensive use of text - massive conversion needed to be playable",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Two-Player Only",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -50251,8 +50251,8 @@
       "bggRank": 190,
       "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Two-Player Only",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -50439,7 +50439,7 @@
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
       "ourComplexity": "",
-      "shelfLocation": "",
+      "shelfLocation": "Classics",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -50482,7 +50482,7 @@
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
       "ourComplexity": "",
-      "shelfLocation": "",
+      "shelfLocation": "Classics",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -50580,8 +50580,8 @@
       "bggRank": 3481,
       "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -50814,8 +50814,8 @@
       "bggRank": 7066,
       "languageDependence": "",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -50961,8 +50961,8 @@
       "bggRank": 23956,
       "languageDependence": "",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -51686,8 +51686,8 @@
       "bggRank": 0,
       "languageDependence": "",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Two-Player Only",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -51746,8 +51746,8 @@
       "bggRank": 525,
       "languageDependence": "Moderate in-game text - needs crib sheet or paste ups",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -52331,8 +52331,8 @@
       "bggRank": 1965,
       "languageDependence": "Some necessary text - easily memorized or small crib sheet",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Light",
+      "shelfLocation": "Party Games",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -53397,7 +53397,7 @@
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
       "ourComplexity": "",
-      "shelfLocation": "",
+      "shelfLocation": "Classics",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -53435,9 +53435,9 @@
       "bggRank": 14315,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
-      "smallArea": false,
+      "ourComplexity": "Light",
+      "shelfLocation": "Two-Player Only",
+      "smallArea": true,
       "adultsOnly": false
     },
     {
@@ -53483,8 +53483,8 @@
       "bggRank": 258,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Two-Player Only",
       "smallArea": false,
       "adultsOnly": false
     },
@@ -53814,8 +53814,8 @@
       "bggRank": 1028,
       "languageDependence": "No necessary in-game text",
       "baseGame": null,
-      "ourComplexity": "",
-      "shelfLocation": "",
+      "ourComplexity": "Medium",
+      "shelfLocation": "Two-Player Only",
       "smallArea": false,
       "adultsOnly": false
     },
